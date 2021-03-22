@@ -10,8 +10,8 @@
       "leftModuleId": 11,
       "data": {
         "audio": {
-          "driver": 6,
-          "deviceName": "Speakers (4- USB Audio CODEC )",
+          "driver": 5,
+          "deviceName": "Burr-Brown from TI              : USB Audio CODEC ",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -119,7 +119,7 @@
         },
         {
           "id": 22,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 23,
@@ -1110,8 +1110,7 @@
         "lastPitch": 8192,
         "lastMod": 95,
         "midi": {
-          "driver": 4,
-          "deviceName": "V25 0",
+          "driver": -1,
           "channel": -1
         }
       },
@@ -1278,8 +1277,7 @@
           0
         ],
         "midi": {
-          "driver": 4,
-          "deviceName": "V25 0",
+          "driver": -1,
           "channel": -1
         }
       },
@@ -1316,8 +1314,7 @@
         ],
         "velocity": false,
         "midi": {
-          "driver": 4,
-          "deviceName": "V25 0",
+          "driver": -1,
           "channel": 9
         }
       },
@@ -1343,8 +1340,7 @@
           }
         ],
         "midi": {
-          "driver": 4,
-          "deviceName": "V25 0",
+          "driver": -1,
           "channel": -1
         }
       },
@@ -1361,7 +1357,7 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 0.0
         },
         {
           "id": 1,
@@ -1392,9 +1388,10 @@
           "value": 0.0
         }
       ],
+      "leftModuleId": 733,
       "pos": [
         149,
-        2
+        3
       ]
     },
     {
@@ -1655,7 +1652,7 @@
       "params": [],
       "rightModuleId": 166,
       "data": {
-        "step": 4
+        "step": 0
       },
       "pos": [
         31,
@@ -1949,7 +1946,7 @@
       "params": [],
       "rightModuleId": 193,
       "data": {
-        "step": 3
+        "step": 0
       },
       "pos": [
         32,
@@ -2159,7 +2156,7 @@
       "leftModuleId": 184,
       "rightModuleId": 194,
       "data": {
-        "step": 2
+        "step": 0
       },
       "pos": [
         55,
@@ -2210,7 +2207,7 @@
       "leftModuleId": 189,
       "rightModuleId": 199,
       "data": {
-        "step": 1
+        "step": 2
       },
       "pos": [
         75,
@@ -2399,7 +2396,7 @@
       "leftModuleId": 221,
       "rightModuleId": 206,
       "data": {
-        "step": 4
+        "step": 0
       },
       "pos": [
         120,
@@ -3052,6 +3049,7 @@
           "value": 1.0
         }
       ],
+      "leftModuleId": 730,
       "rightModuleId": 230,
       "pos": [
         128,
@@ -3090,10 +3088,11 @@
           "value": 1.0
         }
       ],
+      "leftModuleId": 732,
       "rightModuleId": 232,
       "pos": [
         140,
-        2
+        3
       ]
     },
     {
@@ -3110,7 +3109,7 @@
       "leftModuleId": 231,
       "pos": [
         143,
-        2
+        3
       ]
     },
     {
@@ -3121,13 +3120,13 @@
       "params": [
         {
           "id": 0,
-          "value": 1.0
+          "value": 3.0
         }
       ],
       "leftModuleId": 235,
       "rightModuleId": 242,
       "pos": [
-        118,
+        115,
         2
       ]
     },
@@ -3137,12 +3136,13 @@
       "version": "1.1.5",
       "model": "SwitchN1",
       "params": [],
+      "leftModuleId": 731,
       "rightModuleId": 238,
       "data": {
-        "step": 3
+        "step": 1
       },
       "pos": [
-        104,
+        101,
         2
       ]
     },
@@ -3154,13 +3154,13 @@
       "params": [
         {
           "id": 0,
-          "value": -2.0
+          "value": 0.0
         }
       ],
       "leftModuleId": 236,
       "rightModuleId": 233,
       "pos": [
-        115,
+        112,
         2
       ]
     },
@@ -3178,7 +3178,7 @@
       "leftModuleId": 238,
       "rightModuleId": 235,
       "pos": [
-        112,
+        109,
         2
       ]
     },
@@ -3194,7 +3194,7 @@
         "channels": -1
       },
       "pos": [
-        107,
+        104,
         2
       ]
     },
@@ -3206,7 +3206,7 @@
       "params": [
         {
           "id": 0,
-          "value": 6.0
+          "value": 9.0
         },
         {
           "id": 1,
@@ -3307,13 +3307,73 @@
       "params": [
         {
           "id": 0,
-          "value": 2.0
+          "value": 4.0
         }
       ],
       "leftModuleId": 233,
       "pos": [
-        121,
+        118,
         2
+      ]
+    },
+    {
+      "id": 730,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "LABEL",
+      "params": [],
+      "rightModuleId": 229,
+      "data": {
+        "lastPath": "Bass Voice Octave"
+      },
+      "pos": [
+        126,
+        2
+      ]
+    },
+    {
+      "id": 731,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "LABEL",
+      "params": [],
+      "rightModuleId": 234,
+      "data": {
+        "lastPath": "Bass Voice Progression"
+      },
+      "pos": [
+        99,
+        2
+      ]
+    },
+    {
+      "id": 732,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "LABEL",
+      "params": [],
+      "rightModuleId": 231,
+      "data": {
+        "lastPath": "High Voice Octave"
+      },
+      "pos": [
+        138,
+        3
+      ]
+    },
+    {
+      "id": 733,
+      "plugin": "cf",
+      "version": "1.1.1",
+      "model": "LABEL",
+      "params": [],
+      "rightModuleId": 138,
+      "data": {
+        "lastPath": "High Voice Pitch"
+      },
+      "pos": [
+        147,
+        3
       ]
     }
   ],
@@ -4125,14 +4185,6 @@
       "inputModuleId": 234,
       "inputId": 2,
       "color": "#0986ad"
-    },
-    {
-      "id": 187,
-      "outputModuleId": 55,
-      "outputId": 3,
-      "inputModuleId": 138,
-      "inputId": 0,
-      "color": "#c9b70e"
     },
     {
       "id": 188,
