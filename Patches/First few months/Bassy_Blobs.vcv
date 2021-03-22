@@ -1,0 +1,355 @@
+{
+  "version": "1.1.6",
+  "modules": [
+    {
+      "id": 1,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "AudioInterface",
+      "params": [],
+      "leftModuleId": 2,
+      "data": {
+        "audio": {
+          "driver": 6,
+          "deviceName": "Speakers (4- USB Audio CODEC )",
+          "offset": 0,
+          "maxChannels": 8,
+          "sampleRate": 44100,
+          "blockSize": 256
+        }
+      },
+      "pos": [
+        53,
+        0
+      ]
+    },
+    {
+      "id": 2,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCMixer",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": 1.0
+        },
+        {
+          "id": 3,
+          "value": 1.0
+        },
+        {
+          "id": 4,
+          "value": 1.0
+        }
+      ],
+      "leftModuleId": 7,
+      "rightModuleId": 1,
+      "pos": [
+        43,
+        0
+      ]
+    },
+    {
+      "id": 7,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "Scope",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.0
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 14.0
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.0
+        }
+      ],
+      "leftModuleId": 39,
+      "rightModuleId": 2,
+      "data": {
+        "lissajous": 0,
+        "external": 0
+      },
+      "pos": [
+        30,
+        0
+      ]
+    },
+    {
+      "id": 36,
+      "plugin": "Fundamental",
+      "version": "1.4.0",
+      "model": "VCO",
+      "params": [
+        {
+          "id": 0,
+          "value": 1.0
+        },
+        {
+          "id": 1,
+          "value": 1.0
+        },
+        {
+          "id": 2,
+          "value": -24.3000374
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.712583661
+        },
+        {
+          "id": 5,
+          "value": 0.864070475
+        },
+        {
+          "id": 6,
+          "value": 0.179717004
+        }
+      ],
+      "leftModuleId": 56,
+      "pos": [
+        26,
+        1
+      ]
+    },
+    {
+      "id": 39,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Tides",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 7.53598976
+        },
+        {
+          "id": 3,
+          "value": 4.14047337
+        },
+        {
+          "id": 4,
+          "value": 0.13399969
+        },
+        {
+          "id": 5,
+          "value": 0.405999959
+        },
+        {
+          "id": 6,
+          "value": -0.804999352
+        }
+      ],
+      "leftModuleId": 57,
+      "rightModuleId": 7,
+      "data": {
+        "mode": 1,
+        "range": 1,
+        "sheep": false
+      },
+      "pos": [
+        16,
+        0
+      ]
+    },
+    {
+      "id": 56,
+      "plugin": "AudibleInstruments",
+      "version": "1.3.1",
+      "model": "Marbles",
+      "params": [
+        {
+          "id": 0,
+          "value": 0.0
+        },
+        {
+          "id": 1,
+          "value": 0.0
+        },
+        {
+          "id": 2,
+          "value": 0.426499933
+        },
+        {
+          "id": 3,
+          "value": 0.0
+        },
+        {
+          "id": 4,
+          "value": 0.5
+        },
+        {
+          "id": 5,
+          "value": 0.0
+        },
+        {
+          "id": 6,
+          "value": 0.0
+        },
+        {
+          "id": 7,
+          "value": 0.710500479
+        },
+        {
+          "id": 8,
+          "value": 0.5
+        },
+        {
+          "id": 9,
+          "value": 0.5
+        },
+        {
+          "id": 10,
+          "value": 0.0
+        },
+        {
+          "id": 11,
+          "value": 0.0
+        },
+        {
+          "id": 12,
+          "value": 0.0
+        },
+        {
+          "id": 13,
+          "value": 0.0
+        },
+        {
+          "id": 14,
+          "value": 0.5
+        }
+      ],
+      "rightModuleId": 36,
+      "data": {
+        "t_deja_vu": false,
+        "x_deja_vu": true,
+        "t_mode": 0,
+        "x_mode": 0,
+        "t_range": 1,
+        "x_range": 1,
+        "external": false,
+        "x_scale": 0,
+        "y_divider_index": 8,
+        "x_clock_source_internal": 0
+      },
+      "pos": [
+        8,
+        1
+      ]
+    },
+    {
+      "id": 57,
+      "plugin": "Core",
+      "version": "1.1.6",
+      "model": "Notes",
+      "params": [],
+      "rightModuleId": 39,
+      "text": "Things to modulate\n==================\n\ntidal modulator:\nFREQUENCY\nSHAPE\nSLOPE\nSMOOTHNESS\n\nVCO-1:\nFREQ\n\n",
+      "pos": [
+        0,
+        0
+      ]
+    }
+  ],
+  "cables": [
+    {
+      "id": 125,
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 0,
+      "color": "#0986ad"
+    },
+    {
+      "id": 126,
+      "outputModuleId": 2,
+      "outputId": 0,
+      "inputModuleId": 1,
+      "inputId": 1,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 139,
+      "outputModuleId": 56,
+      "outputId": 6,
+      "inputModuleId": 39,
+      "inputId": 5,
+      "color": "#0986ad"
+    },
+    {
+      "id": 135,
+      "outputModuleId": 39,
+      "outputId": 2,
+      "inputModuleId": 2,
+      "inputId": 2,
+      "color": "#0986ad"
+    },
+    {
+      "id": 143,
+      "outputModuleId": 2,
+      "outputId": 2,
+      "inputModuleId": 7,
+      "inputId": 0,
+      "color": "#c9b70e"
+    },
+    {
+      "id": 147,
+      "outputModuleId": 56,
+      "outputId": 1,
+      "inputModuleId": 39,
+      "inputId": 4,
+      "color": "#c91847"
+    },
+    {
+      "id": 142,
+      "outputModuleId": 36,
+      "outputId": 0,
+      "inputModuleId": 39,
+      "inputId": 7,
+      "color": "#c91847"
+    }
+  ]
+}
