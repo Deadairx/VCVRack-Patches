@@ -12,7 +12,7 @@
       "data": {
         "audio": {
           "driver": 5,
-          "deviceName": "Apple Inc.: MacBook Pro Speakers",
+          "deviceName": "Burr-Brown from TI              : USB Audio CODEC ",
           "offset": 0,
           "maxChannels": 8,
           "sampleRate": 44100,
@@ -354,7 +354,7 @@
         "momentaryCvButtons": 1,
         "masterFaderScalesSends": 0,
         "linearVolCvInputs": 0,
-        "id_t0_gainAdjust": 1.0,
+        "id_t0_gainAdjust": 0.517606437,
         "id_t0_fadeRate": 0.0,
         "id_t0_fadeProfile": 0.0,
         "id_t0_directOutsMode": 3,
@@ -1003,7 +1003,7 @@
         "polyMode": 0,
         "clockDivision": 24,
         "lastPitch": 8320,
-        "lastMod": 17,
+        "lastMod": 16,
         "midi": {
           "driver": 1,
           "deviceName": "V25 Out",
@@ -1044,7 +1044,7 @@
         ],
         "values": [
           0,
-          17,
+          16,
           0,
           0,
           0,
@@ -1063,15 +1063,9 @@
           0,
           0,
           0,
+          73,
           0,
-          0,
-          23,
-          70,
-          0,
-          0,
-          0,
-          0,
-          0,
+          52,
           0,
           0,
           0,
@@ -1093,6 +1087,12 @@
           0,
           0,
           0,
+          0,
+          0,
+          0,
+          0,
+          127,
+          127,
           0,
           0,
           0,
@@ -4185,7 +4185,6 @@
           "value": 0.0
         }
       ],
-      "leftModuleId": 709,
       "data": {
         "panelTheme": 0,
         "mode": 2,
@@ -4697,7 +4696,7 @@
         },
         {
           "id": 4,
-          "value": 1.0
+          "value": 0.600186467
         },
         {
           "id": 5,
@@ -4709,7 +4708,7 @@
         },
         {
           "id": 7,
-          "value": 0.324279159
+          "value": -0.173720837
         },
         {
           "id": 8,
@@ -4791,7 +4790,7 @@
         "modelSlug": "ADDR-SEQ",
         "moduleName": "Bogaudio ADDR-SEQ",
         "slotCvMode": 2,
-        "preset": 3,
+        "preset": 0,
         "presetCount": 8,
         "presets": [
           {
@@ -5313,11 +5312,11 @@
         },
         {
           "id": 2,
-          "value": -8.0
+          "value": -9.0
         },
         {
           "id": 3,
-          "value": -15.0
+          "value": -17.0
         },
         {
           "id": 4,
@@ -5532,20 +5531,6 @@
       ]
     },
     {
-      "id": 709,
-      "plugin": "Core",
-      "version": "1.1.6",
-      "model": "Notes",
-      "params": [],
-      "leftModuleId": 710,
-      "rightModuleId": 588,
-      "text": "I'm using the Topograph to trigger the Modal Synthesizer but also to trigger the ADDR-SEQ and a few S&H modules. The Modal Synthesizer is going through the Dual Delay from MSM, and I'm modulating the delay times as well as a few parameters on the synth itself. ",
-      "pos": [
-        112,
-        3
-      ]
-    },
-    {
       "id": 710,
       "plugin": "cf",
       "version": "1.1.1",
@@ -5569,7 +5554,6 @@
         }
       ],
       "leftModuleId": 711,
-      "rightModuleId": 709,
       "data": {
         "solostate": 0,
         "onstate": 1
@@ -6087,11 +6071,11 @@
       "params": [
         {
           "id": 0,
-          "value": 4.0
+          "value": 7.0
         },
         {
           "id": 1,
-          "value": 9.0
+          "value": 1.0
         },
         {
           "id": 2,
